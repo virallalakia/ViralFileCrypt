@@ -9,7 +9,7 @@ A very fast, simple and easy to use file encryption/decryption tool.
 * **`EXACT SAME SIZE`** - All encrypted/decrypted files are generated with the exact same size of the original files.
 
 ## How to use ViralFileCrypt tool
-* Download ViralFileCrypt.jar (see [downloads](downloads)).
+* Download ViralFileCrypt.jar (see [downloads](#downloads)).
 * Use Java 1.8 (see [dependencies](#dependencies)) to run the jar file with supported [options](#options).
 
 ## Options
