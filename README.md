@@ -6,10 +6,10 @@ A very fast, simple and easy to use file encryption/decryption tool.
 * **`LIGHTING FAST`** - Encrypt/Decrypt many files within few seconds.
 * **`MULTI-FILE SUPPORT`** - Wildcard supported, encrypt/decrypt many files within diffrent folders in one execution.
 * **`KEY IS NEVER SAVED`** - The `salt` is only with you, no one can decrypt your files without that exact salt.
-* **`EXACT SAME SIZE`** - All encrypted/decrypted files are generated with the excat same size of the original files.
+* **`EXACT SAME SIZE`** - All encrypted/decrypted files are generated with the exact same size of the original files.
 
 ## How to use ViralFileCrypt tool
-* Download ViralFileCrypt.jar from [here](https://cdn.rawgit.com/virallalakia/ViralFileCrypt/master/dist/ViralFileCrypt.jar).
+* Download ViralFileCrypt.jar (see [downloads](downloads)).
 * Use Java 1.8 (see [dependencies](#dependencies)) to run the jar file with supported [options](#options).
 
 ## Options
@@ -58,6 +58,9 @@ A very fast, simple and easy to use file encryption/decryption tool.
                                  file/directory names and structure
     ```
 
+## Downloads
+* Download ViralFileCrypt.jar from [here](https://cdn.rawgit.com/virallalakia/ViralFileCrypt/master/dist/ViralFileCrypt.jar).
+
 ## Dependencies
 * Java 1.8 (jdk 8) and above to compile the source.
-* Java 1.8 (jdk/jre 8) and above to run the jar file.
+* Java 1.8 (jdk 8 or jre 8) and above to run the jar file.
