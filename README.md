@@ -3,7 +3,7 @@ A very fast, simple and easy to use file encryption/decryption tool.
 
 ## Features
 * **`HIGHLY SECURE`** - All the encrypted files generated using this tool are highly secure.
-* **`LIGHTING FAST`** - Encrypt/Decrypt many files within few seconds.
+* **`LIGHTNING FAST`** - Encrypt/Decrypt many files within few seconds.
 * **`MULTI-FILE SUPPORT`** - Wildcard supported, encrypt/decrypt many files within diffrent folders in one execution.
 * **`KEY IS NEVER SAVED`** - The `salt` is only with you, no one can decrypt your files without that exact salt.
 * **`EXACT SAME SIZE`** - All encrypted/decrypted files are generated with the exact same size of the original files.
