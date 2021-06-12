@@ -1,33 +1,20 @@
-package com.virallalakia.crypt.file;
+/*
+ ******************************************************************************
+ * MIT License                                                                *
+ * Copyright (c) (2017 - Present) Viral Lalakia                               *
+ ******************************************************************************
+ */
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+package com.virallalakia.viralfilecrypt.crypt.file;
+
+import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.file.FileVisitOption;
-import java.nio.file.FileVisitResult;
-import java.nio.file.FileVisitor;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.ArrayList;
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
-/**
- * @author Viral Lalakia (virallalakia)
- * @copyright 2017 Viral Lalakia
- * @license MIT License (https://opensource.org/licenses/MIT)
- * @version 1.0
- */
-public class ViralFileCrypt {
+public class ViralFileCryptOld {
 
     private static final String FILE_SEP = File.separator;
     private static final int BYTE_BUFFER_SIZE = 64 * 1024; // 64kb
